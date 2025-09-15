@@ -1,0 +1,20 @@
+Tets:
+Threads: 50
+Ramp-up period: 10S
+
+Lo positivo
+
+El throughput se mantuvo estable en 20 TPS, objetivo de 20 TPS.
+
+El tiempo promedio de respuesta (347 ms) está dentro del SLA definido ( 1.5 s).
+
+El 95th y 99th percentile muestran que un grupo de usuarios experimentó respuestas (378– 466 ms) lo que no implica una variación significativa.
+
+El 0.08% de errores significa que la mayoria de usuarios pudieron completar su flujo, lo cual es bueno en un escenario de autenticación.
+
+
+⚠️ Hallazgos
+
+El máximo (750 ms) indica que en algunos casos extremos, el sistema tuvo picos que no superan el SLA definido.
+
+
